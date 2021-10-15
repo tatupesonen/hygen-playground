@@ -1,5 +1,6 @@
 ---
 to: src/controllers/<%= modulePath.toLowerCase() %>/components/<%= h.inflection.camelize(name, true) %>.ts
+sh: "echo 'import \"components/<%= h.inflection.camelize(name, true) %>\"' >> <%= cwd %>/src/load-scripts.js"
 ---
 import angular, { IComponentController } from "angular";
 
