@@ -1,0 +1,15 @@
+{
+  "name": "hygen-playground",
+  "version": "1.0.0",
+  "description": "A playground for testing out Hygen",
+  "scripts": {
+    "g:ng": "hygen component ng",
+    "g:react": "hygen component react"
+  },
+  "author": "Tatu Pesonen",
+  "license": "MIT",
+  "devDependencies": {
+    "enquirer": "^2.3.6",
+    "hygen": "^6.1.0"
+  }
+}
